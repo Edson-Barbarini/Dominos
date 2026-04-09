@@ -1,0 +1,209 @@
+body {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  background-color: #f3f4f6;
+  color: #1a1a1a;
+}
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 16px 2rem;
+}
+.header {
+  background-color: #0078ae;
+  border-radius: 0 0 16px 16px;
+  padding: 2rem 1.5rem 1.5rem;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 1.5rem;
+}
+.header-titulo {
+  display: flex;         
+  align-items: center;   
+  justify-content: center; 
+  gap: 15px;            
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+.logo {
+  width: 60px;          
+  height: auto;         
+}
+.header-subtitulo {
+  font-size: 16px;
+  opacity: 0.85;
+  text-align: center;
+}
+.botoes-container {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 1.5rem;
+}
+.botao-categoria {
+  padding: 10px 28px;
+  border-radius: 12px;
+  border: 2px solid #0078ae;
+  background: transparent;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 500;
+  color: #0078ae;
+  transition: all 0.15s;
+}
+.botao-categoria:hover {
+  background-color: #e6f1fb;
+}
+.botao-categoria.ativo {
+  background-color: #0078ae;
+  color: #ffffff;
+}
+.main {
+  min-height: 300px;
+}
+.mensagem-inicial {
+  text-align: center;
+  padding: 4rem 1rem;
+  font-size: 18px;
+  color: #888;
+}
+.secao-titulo {
+  font-size: 20px;
+  font-weight: 600;
+  color: #0078ae;
+  margin-bottom: 1rem;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 16px;
+}
+.card {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.15s;
+}
+.card:hover {
+  transform: translateY(-3px);
+}
+.card-foto {
+  width: 100%;
+  display: flex;
+  justify-content: center; 
+  padding: 15px 0;
+  background-color: #f9f9f9;
+  border-radius: 15px 15px 0 0;
+}
+.foto-pizza {
+  width: 150px;           
+  height: 150px; 
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #fff;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.card-corpo {
+  padding: 12px 14px;
+}
+.card-nome {
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+.card-descricao {
+  font-size: 12px;
+  color: #6b7280;
+  line-height: 1.4;
+  margin-bottom: 10px;
+}
+.card-rodape {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.preco {
+  font-size: 16px;
+  font-weight: 600;
+  color: #0078ae;
+}
+.tag-novo {
+  background-color: #eaf3de;
+  color: #3b6d11;
+  font-size: 11px;
+  padding: 2px 8px;
+  border-radius: 20px;
+  font-weight: 500;
+}
+.tag-promo {
+  background-color: #fcebeb;
+  color: #a32d2d;
+  font-size: 11px;
+  padding: 2px 8px;
+  border-radius: 20px;
+  font-weight: 500;
+}
+.grid-cupons {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 14px;
+}
+.cupom-card {
+  border: 2px dashed #0078ae;
+  border-radius: 12px;
+  padding: 18px;
+  background-color: #e6f1fb;
+}
+.cupom-emoji {
+  font-size: 28px;
+  margin-bottom: 8px;
+}
+.cupom-codigo {
+  font-size: 20px;
+  font-weight: 700;
+  color: #0078ae;
+  letter-spacing: 2px;
+  margin-bottom: 4px;
+}
+.cupom-descricao {
+  font-size: 13px;
+  color: #185fa5;
+  line-height: 1.4;
+  margin-bottom: 6px;
+}
+.cupom-validade {
+  font-size: 11px;
+  color: #185fa5;
+  opacity: 0.8;
+}
+.botao-copiar {
+  margin-top: 12px;
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #0078ae;
+  background: #ffffff;
+  color: #0078ae;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 500;
+  transition: all 0.15s;
+}
+.botao-copiar:hover {
+  background-color: #0078ae;
+  color: #ffffff;
+}
+.botao-copiar.copiado {
+  background-color: #0078ae;
+  color: #ffffff;
+}
+.rodape {
+  margin-top: 3rem;
+  text-align: center;
+  border-top: 1px solid #e5e7eb;
+  padding-top: 1rem;
+  font-size: 12px;
+  color: #9ca3af;
+}
